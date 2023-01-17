@@ -3,10 +3,12 @@ import 'package:simple_flutter_app/screens/Home.dart';
 import 'package:simple_flutter_app/screens/bottomNav.dart';
 import 'package:simple_flutter_app/screens/custom.dart';
 import 'package:simple_flutter_app/screens/dashboard.dart';
+import 'package:simple_flutter_app/screens/form.dart';
 import 'package:simple_flutter_app/screens/listBuilder.dart';
 import 'package:simple_flutter_app/screens/listView.dart';
 import 'package:simple_flutter_app/screens/rename.dart';
 import 'package:simple_flutter_app/screens/stack.dart';
+import 'package:simple_flutter_app/widgets/stateWidget.dart';
 
 void main() => runApp(const MyApp());
 
@@ -20,6 +22,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: "Simple Flutter App",
         themeMode: ThemeMode.system,
-        home: Custom());
+        home: MyForm());
   }
 }
